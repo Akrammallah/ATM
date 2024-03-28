@@ -1,22 +1,4 @@
-// import inquirer from "inquirer";
-// let guessNumber = Math.floor(Math.random()*6+1)
-// let answer = await inquirer.prompt([{
-//   message:"guess your number: ",
-//   type: "number",
-//   name:"guessNum",
-// }])
-// if(answer.guessNum === guessNumber){
-//   console.log("congrat you guess right number")
-// }else{
-//   console.log("you guess wrong number")
-// }
-// import inquirer from "inquirer";
-//  let answer = await inquirer.prompt([{
-//   message:"Enter your marks: ",
-//   type:"number",
-//   name:"marks"
-//  }])
-//  console.log("your percentage is", + (answer.marks/700*100))
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let balance = 10000;
